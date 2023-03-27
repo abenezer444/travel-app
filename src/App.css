@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.app {
+  width: 600px;
+  margin: 1em auto;
+}
+.globe {
+  width: 24px;
+  height:24px
+}
+.title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: 0.075em;
+  color: #FFFFFF;
+}
+.topContent {
+  display: flex;
+  background-color:#F55A5A;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  gap: .5em;
+}
+
+.card {
+  height: 220px;
+  width: 100%;
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  margin: .8em;
+
+}
+.location {
+  display: flex;
+  justify-content: flex-start;
+  gap: .3em;
+  align-items: center;
+}
+.locationIcon {
+  width: 15px;
+  height: 15px;
+}
+.cardImage {
+  height: 90%;
+  width: 130px;
+}
+.link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.24px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918E9B;
+  margin-left: 2em;
+}
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 85%;
+}
